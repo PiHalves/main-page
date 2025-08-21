@@ -3,9 +3,13 @@ import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { routing } from "@/src/i18n/routing";
 
-export default function Home({ params }: { params: { locale: string } }) {
+export default function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   // Enable static rendering
-  const locale = params.locale;
+  const { locale } = use(params);
   setRequestLocale(locale);
   const t = useTranslations("Teaser");
   return (
