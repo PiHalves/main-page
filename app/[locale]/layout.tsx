@@ -6,6 +6,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
+import Navbar from "@/src/navbar";
 
 const roboto = Roboto({
   variable: "--font-geist-mono",
@@ -69,7 +70,6 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  viewportFit: "cover",
   themeColor: [
     { media: "(prefers-color-scheme: dark)", color: "#000000" },
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
@@ -92,7 +92,10 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={`${roboto.variable} ${roboto.variable} antialiased`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Navbar />
+          {children}
+        </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>

@@ -13,7 +13,7 @@ export default function Home({
   setRequestLocale(locale);
   const t = useTranslations("Teaser");
   return (
-    <div className="h-screen w-screen text-center lg:text-3xl xl:text-5xl font-bold flex items-center justify-center overflow-hidden">
+    <div className="h-screen w-screen text-center lg:text-3xl xl:text-5xl font-bold flex items-center justify-center">
       {t("title")}
     </div>
   );
