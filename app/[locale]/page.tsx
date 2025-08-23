@@ -13,9 +13,18 @@ export default function Home({
   setRequestLocale(locale);
   const t = useTranslations("Teaser");
   return (
-    <div className="h-screen w-screen text-center lg:text-3xl xl:text-5xl font-bold flex items-center justify-center">
-      {t("title")}
-    </div>
+    <>
+      <div className="h-screen mx-auto text-left lg:text-3xl min-xl:text-8xl font-bold flex items-center w-full lg:w-3/4">
+        {t("header.0")}
+        <br />
+        {t("header.1")}
+        <br />
+        {t("header.2")}
+        <br />
+        {t("header.3")}
+      </div>
+      <div className="w-full p-4 lg:w-3/4 lg:p-0 mx-auto ">dasdas </div>
+    </>
   );
 }
 

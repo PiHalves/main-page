@@ -1,6 +1,12 @@
 {
   "Teaser": {
     "title": "Nadchodzi coś wielkiego",
-    "description": "Bądź na bieżąco z uruchomieniem naszej nowej strony internetowej. Pracujemy ciężko, aby zapewnić Ci niesamowite doświadczenie."
+    "description": "Bądź na bieżąco z uruchomieniem naszej nowej strony internetowej. Pracujemy ciężko, aby zapewnić Ci niesamowite doświadczenie.",
+    "header": {
+      "0": "PiPół:",
+      "1": "Elektronika",
+      "2": "Prototypowanie",
+      "3": "& Programowanie"
+    }
   }
 }

@@ -1,6 +1,12 @@
 {
   "Teaser": {
     "title": "Something great is coming",
-    "description": "Stay tuned for the launch of our new website. We are working hard to bring you an amazing experience."
+    "description": "Stay tuned for the launch of our new website. We are working hard to bring you an amazing experience.",
+    "header": {
+      "0": "PiHalves:",
+      "1": "Electronics",
+      "2": "Prototyping",
+      "3": "& Programming"
+    }
   }
 }
