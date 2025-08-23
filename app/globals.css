@@ -1,22 +1,46 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Retro computing – refined, eye-comfortable palette (light) */
+  --background: #f4f1e6;
+  --foreground: #243024;
+  --primary: #2cb67d; /* soft terminal green */
+  --secondary: #d17a22; /* muted retro orange */
+  --accent: #c7a25a; /* warm amber */
+  --muted: #7a8a7a;
+  --border: #cfc7a7;
+  --card: #ece6d4;
+  --warning: #e0a458;
+  --error: #d16666;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Retro computing – refined, eye-comfortable palette (dark) */
+    --background: #0b100d; /* deep green-black */
+    --foreground: #cfe8d3; /* soft phosphor green */
+    --primary: #8ddf9b; /* dimmed terminal green */
+    --secondary: #e6955e; /* softened orange */
+    --accent: #dfb77e; /* warm amber */
+    --muted: #7a877a;
+    --border: #2a342d;
+    --card: #141a16;
+    --warning: #f2c37a;
+    --error: #ff7f87;
   }
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
 }
 
 body {
