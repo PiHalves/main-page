@@ -94,7 +94,7 @@ export default async function RootLayout({
       <body className={`${roboto.variable} ${roboto.variable} antialiased`}>
         <NextIntlClientProvider>
           <Navbar />
-          {children}
+          <main className="pt-12">{children}</main>
         </NextIntlClientProvider>
         <Analytics />
       </body>
