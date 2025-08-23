@@ -1,5 +1,5 @@
 {
-  "Teaser": {
+  "Landing": {
     "title": "Nadchodzi coś wielkiego",
     "description": "Bądź na bieżąco z uruchomieniem naszej nowej strony internetowej. Pracujemy ciężko, aby zapewnić Ci niesamowite doświadczenie.",
     "header": {
@@ -7,6 +7,43 @@
       "1": "Elektronika",
       "2": "Prototypowanie",
       "3": "& Programowanie"
+    },
+    "subheadings": {
+      "0": "Co robimy",
+      "1": "Nasze podejście"
+    },
+    "descriptions": {
+      "0": "Tworzymy innowacyjne rozwiązania dla naszych klientów. Nasz zespół jest zaangażowany w dostarczanie produktów wysokiej jakości, które spełniają potrzeby naszych użytkowników. Specjalizujemy się w tworzeniu niestandardowego oprogramowania i rozwiązań sprzętowych.",
+      "1": "Nasz proces polega na zrozumieniu unikalnych wyzwań, przed którymi stoi każdy klient, oraz opracowaniu dostosowanych strategii, aby je rozwiązać.",
+      "2": "Wierzymy w ciągłe doskonalenie i śledzenie najnowszych trendów w branży, aby zapewnić jak najlepszą obsługę.",
+      "3": "Priorytetem jest dla nas współpraca i komunikacja, dzięki czemu nasi klienci są zaangażowani i informowani przez cały cykl życia projektu.",
+      "4": "Jesteśmy zobowiązani do zrównoważonego rozwoju i etycznych praktyk, dążąc do wywarcia pozytywnego wpływu na społeczeństwo i środowisko.",
+      "5": "Cenimy różnorodność i inkluzję, wspierając kulturę, w której każdy czuje się szanowany i ma możliwość wniesienia swojego wkładu.",
+      "6": "Wierzymy w siłę społeczności i aktywnie dążymy do angażowania się i wspierania społeczności, którym służymy."
     }
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Coś poszło nie tak.",
+    "back": "Wstecz"
+  },
+  "Nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "blog": "Blog"
+  },
+  "About": {
+    "title": "O nas",
+    "description": "Dowiedz się więcej o naszym zespole i misji."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Skontaktuj się z naszym zespołem."
+  },
+  "blog": {
+    "title": "Nasz blog",
+    "description": "Przeczytaj nasze najnowsze artykuły i aktualności."
   }
 }

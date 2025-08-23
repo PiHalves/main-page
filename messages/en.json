@@ -1,5 +1,5 @@
 {
-  "Teaser": {
+  "Landing": {
     "title": "Something great is coming",
     "description": "Stay tuned for the launch of our new website. We are working hard to bring you an amazing experience.",
     "header": {
@@ -7,6 +7,43 @@
       "1": "Electronics",
       "2": "Prototyping",
       "3": "& Programming"
+    },
+    "subheadings": {
+      "0": "What we do",
+      "1": "Our approach"
+    },
+    "descriptions": {
+      "0": "We create innovative solutions for our clients. Our team is dedicated to delivering high-quality products that meet the needs of our users. We specialize in creating custom software and hardware solutions.",
+      "1": "Our process involves understanding the unique challenges faced by each client and developing tailored strategies to address them.",
+      "2": "We believe in continuous improvement and staying up-to-date with the latest industry trends to provide the best possible service.",
+      "3": "We prioritize collaboration and communication, ensuring that our clients are involved and informed throughout the entire project lifecycle.",
+      "4": "We are committed to sustainability and ethical practices, striving to make a positive impact on society and the environment.",
+      "5": "We value diversity and inclusion, fostering a culture where everyone feels respected and empowered to contribute.",
+      "6": "We believe in the power of community and actively seek to engage with and support the communities we serve."
     }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "back": "Back"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "About": {
+    "title": "About Us",
+    "description": "Learn more about our team and mission."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team."
+  },
+  "blog": {
+    "title": "Our Blog",
+    "description": "Read our latest articles and updates."
   }
 }
