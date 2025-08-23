@@ -1,11 +1,13 @@
 "use client";
 import { Link, usePathname } from "@/src/i18n/navigation";
 import LanguageSwitcher from "./language_switcher";
+import { useTranslations } from "next-intl";
 
 export default function Navbar() {
   "use client";
   // Get the current page without using window
   const currentPage = usePathname();
+  const t = useTranslations("Nav");
   return (
     <div className="relative">
       <nav className="fixed top-0 left-0 right-0 w-full h-12 p-1  bg-border flex flex-row items-center justify-between px-4 z-40">
@@ -24,7 +26,7 @@ export default function Navbar() {
               currentPage === "/about" ? "bg-card" : ""
             }`}
           >
-            About
+            {t("about")}
           </Link>
           <Link
             href="/contact"
@@ -32,7 +34,7 @@ export default function Navbar() {
               currentPage === "/contact" ? "bg-card" : ""
             }`}
           >
-            Contact
+            {t("contact")}
           </Link>
           <Link
             href="/blog"
@@ -40,7 +42,7 @@ export default function Navbar() {
               currentPage === "/blog" ? "bg-card" : ""
             }`}
           >
-            Blog
+            {t("blog")}
           </Link>
           <LanguageSwitcher />
         </div>
